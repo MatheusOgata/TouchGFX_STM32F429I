@@ -1,0 +1,21 @@
+
+{
+  "Application": {
+    "Name": "TouchGFX_STM32F429i",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "AvailableColorDepths": [ 16 ],
+    "AvailableLCDs":
+    {
+      "16": "LCD16bpp"
+    },
+    "AvailableResolutions" : [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PostGenerateTargetCommand" : "touchgfx update_project --project-file=../TouchGFX_STM32F429i.ioc --platform=m4",
+    "Family" : "STM32F4"
+  },
+  "Version": "4.16.0"
+}

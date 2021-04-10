@@ -1,0 +1,5 @@
+Driver_9341.c:6:6:ili9341_WriteData	16	static
+Driver_9341.c:19:6:ili9341_WriteReg	16	static
+Driver_9341.c:35:13:SPIx_Init	16	static
+Driver_9341.c:80:6:LCD_IO_Init	40	static
+Driver_9341.c:116:6:ili9341_Init	8	static
